@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sk Academy</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Sk Academy</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Bosh sahifa</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">Ma'lumot</a>
+          </li>
+          <li class="nav-item active">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <div class="about-banner">  
+    <div class="container text-center py-5  text-white">  
+      <h2>Read Our Blog</h2> 
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Nemo, laboriosam?</p>
+    </div>
+</div>
+  
+  <div class="blog-post my-5"> 
+      <div class="container"> 
+          <div class="row"> 
+              <div class="col-md-4"> 
+                  <div class="card mt-2"> 
+                      <div class="caard-header"> 
+                          <img src="img/carousel3.jpg"  class="img-fluid " alt="">
+                      </div>
+                      <div class="card-body"> 
+                          <h1>Blog Post One</h1>
+                          <p class="text-muted">Lorem ipsum dolor sit amet.</p><hr>
+                          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ullam minus fugiat, voluptas rerum sed quibusdam iusto cupiditate ratione quae.</h5>
+                      </div>
+                  </div>
+              </div> 
+
+              <div class="col-md-4"> 
+                <div class="card mt-2"> 
+                    <div class="caard-header"> 
+                        <img src="img/carousel4.jpg"  class="img-fluid " alt="">
+                    </div>
+                    <div class="card-body"> 
+                        <h1>Blog Post Two</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p><hr>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ullam minus fugiat, voluptas rerum sed quibusdam iusto cupiditate ratione quae.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4"> 
+                <div class="card mt-2"> 
+                    <div class="caard-header"> 
+                        <img src="img/carousel5.jpeg"  class="img-fluid " alt="">
+                    </div>
+                    <div class="card-body"> 
+                        <h1>Blog Post Three</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p><hr>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ullam minus fugiat, voluptas rerum sed quibusdam iusto cupiditate ratione quae.</h5>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row"> 
+              <div class="col-md-4"> 
+                  <div class="card mt-3">
+                   <div class="card-body"> 
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet temporibus neque voluptatem ipsum recusandae, voluptates veritatis delectus facilis explicabo? Unde, voluptate aperiam voluptas dolores hic expedita. Ullam, earum fugiat?</h5> 
+                      <p>-Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4"> 
+                <div class="card bg-danger text-white mt-3">
+                 <div class="card-body"> 
+                  <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet temporibus neque voluptatem ipsum recusandae, voluptates veritatis delectus facilis explicabo? Unde, voluptate aperiam voluptas dolores hic expedita. Ullam, earum fugiat?</h5> 
+                    <p>-Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-4"> 
+                <div class="card mt-3">
+                 <div class="card-body"> 
+                  <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet temporibus neque voluptatem ipsum recusandae, voluptates veritatis delectus facilis explicabo? Unde, voluptate aperiam voluptas dolores hic expedita. Ullam, earum fugiat?</h5> 
+                    <p>-Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Sk Academy</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
